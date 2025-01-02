@@ -21,10 +21,10 @@ console.log("hello world");
 export async function fetchRevenue() {
   try {
     console.log("inside fetch revenue");
-    const client = await db.connect();
+    // const client = await db.connect();
     console.log("Hello");
     
-    const data = await client.sql<Revenue>`SELECT * FROM revenue`;
+    const data = await sql<Revenue>`SELECT * FROM revenue`;
 
 
   
