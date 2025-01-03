@@ -9,13 +9,8 @@ import {
 } from './definitions';
 import { formatCurrency } from './utils';
 
-import { db } from '@vercel/postgres';
+
 console.log("hello world");
-
-// const client = await db.connect();
-// console.log("Client=",client)
-// await client.sql`SELECT 1`;
-
 
 
 export async function fetchRevenue() {
